@@ -4,10 +4,11 @@
   --body: #888;
   --white: #ffffff;
   --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+  --font-style: 'Roboto', sans-serif;
 }
 
 body {
-  font-family: "Sora", sans-serif;
+  font-family: var(--font-style);
   line-height: 1.7;
   color: var(--body);
 }
