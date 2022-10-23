@@ -11,13 +11,15 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <!-- todo: name in the top left -->
-    <!-- todo: nav bar -->
-    <!-- <h1>Christopher Maltez</h1> -->
-
+    <!--  nav bar -->
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container">
         <a class="navbar-brand" href="#home">Christopher Maltez</a>
@@ -35,52 +37,42 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+              <a class="nav-link active" aria-current="page" href="#landing"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">Features</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Pricing</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">Christopher Maltez</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#home"></a>
-            <a class="nav-link" href="#about">About</a>
-            <a class="nav-link" href="#contact">Contact</a>
-          </div>
-        </div>
-      </div>
-    </nav> -->
-
-    <!-- todo: landing section -->
-    <!-- todo: requires a photo -->
+    <!-- landing section -->
     <section id="landing">
-      <h1>Christopher Maltez</h1>
-      <h2>Currently a student at Rithm Bootcamp</h2>
+      <div>
+        <h1 class="landingtext">Christopher Maltez</h1>
+        <h2 class="landingtext">Currently a student at Rithm Bootcamp</h2>
+        <br />
+        <h3 class="landingtext">Always aspiring to do more.</h3>
+      </div>
     </section>
 
-    <!-- todo: - about you -->
-    <!-- todo: --- brief description of yourself -->
-    <!-- todo: --- LINK TO resume -->
+    <!-- about you -->
     <section id="about">
-      <h1>About</h1>
-      <div>
-        <img src="/media/photos/CM_ProfilePic_Color.jpeg" alt="" />
-      </div>
-      <p>
+      <h2>About</h2>
+      <img
+        src="/media/photos/CM_ProfilePic_Color.jpeg"
+        alt=""
+        height="300"
+        class="photo"
+      />
+
+      <p class="about-text">
         I grew up in southern California and went to college at the University
         of Arizona in Tucson where I got my Bachelor's of Architecture degree.
         After that, I went to Panama for a work exchange program briefly and
@@ -92,12 +84,23 @@
       </p>
     </section>
 
-    <!-- todo: contact info -->
+    <!-- contact info -->
     <section id="contact">
-      <h1>Contact</h1>
-      <p>Christopher Maltez</p>
-      <p>Email: christopher.maltez@outlook.com</p>
-      <!-- linkedIn  icon from https://boxicons.com/ - anchor tag with href? -->
+      <h2>Contact</h2>
+      <p class="contact">Christopher Maltez</p>
+      <p class="contact">
+        <a href="/media/data/CHRISTOPHER_MALTEZ_RESUME_AUGUST_2022 .pdf"
+          >Resume</a
+        >
+      </p>
+      <p class="contact">Email: christopher.maltez@outlook.com</p>
+      <div class="iconbox">
+        <a
+          href="https://www.linkedin.com/in/christopher-maltez-81030b85/"
+          class="contact"
+          ><i class="bx bxl-linkedin bx-border"></i
+        ></a>
+      </div>
     </section>
 
     <footer></footer>
