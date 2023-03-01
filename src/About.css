@@ -1,0 +1,53 @@
+#about {
+  /* padding-top: 50px; */
+  padding-bottom: 100px;
+}
+
+#headshot {
+  margin-top: 2em;
+  filter: grayscale(100%);
+  border-radius: 2em;
+}
+
+
+.js {
+  color: aqua;
+  font-size: 1.25em;
+}
+
+.python {
+  color: rgb(241, 167, 7);
+  font-size: 1.25em;
+}
+
+.csharp {
+  color: rgb(141,58,163);
+  font-size: 1.25em;
+}
+
+.jquery {
+  color:rgb(16,100,165);
+  font-size: 1.25em;
+}
+
+.react {
+  color:rgb(91,207,237);
+  font-size: 1.25em;
+}
+
+.flask {
+  color:rgb(238,214,84);
+  font-size: 1.25em;
+}
+
+.revit {
+  color:rgb(47,107,172);
+  font-size: 1.25em;
+}
+
+.autocad {
+  color:rgb(178,39,37);
+  font-size: 1.25em;
+}
+
+
