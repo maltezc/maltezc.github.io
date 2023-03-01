@@ -12,21 +12,25 @@ function Projects() {
           <p>Team Size: </p>
           <p>Role: </p>
           <p>Test Coverage: </p>
+          <p>Tech Stack used: </p>
           <br />
           <h3>To Finish: NumbersAPI</h3>
           <p>Team Size: </p>
-          <p>Role: </p>
+          <p>Role: Worked on integration of slack bo reporting a daily fact. Worked on </p>
           <p>Test Coverage: </p>
+          <p>Tech Stack used: FRONTEND: js/jquery, sass, BACKEND: flask/python, MOBILE FRONT: react Native</p> {/* TODO: FIX THIS */}
           <br />
           <h3>In progress: StackQs</h3>
           <p>Team Size: </p>
           <p>Role: </p>
           <p>Test Coverage: </p>
+          <p>Tech Stack used: </p>
           <br />
           <h3>In progress/private: My NeighborsBookshelf</h3>
           <p>Team Size: </p>
           <p>Role: </p>
           <p>Test Coverage: </p>
+          <p>Tech Stack used: </p>
           <br />
         </div>
       </div>

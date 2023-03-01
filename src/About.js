@@ -67,6 +67,10 @@ function About() {
                       <SiJquery />
                       JQuery
                     </li>
+                    <li className="sass">
+                      <SiJquery /> {/* TODO: FIX THIS */}
+                      SASS
+                    </li>
                   </ul>
                 </div>
 
