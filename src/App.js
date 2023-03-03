@@ -8,6 +8,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <PWApp />
+
       </div>
     </BrowserRouter>
   );

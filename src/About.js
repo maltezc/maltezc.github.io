@@ -1,12 +1,19 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+
 import Container from "react-bootstrap/Container";
-import { Linkedin, Github } from "react-bootstrap-icons";
+
 import { FaBeer, FaReact } from "react-icons/fa";
 import { BsStack } from "react-icons/bs";
 import { IoLogoJavascript, IoLogoPython } from "react-icons/io";
 import { TbCSharp } from "react-icons/tb";
-import { SiJquery, SiFlask, SiAutodesk } from "react-icons/si";
+import {
+  SiSass,
+  SiJquery,
+  SiFlask,
+  SiAutodesk,
+  SiPostgresql,
+  SiFirebase,
+} from "react-icons/si";
 
 import headshot from "./images/headShot.jpg";
 import "./About.css";
@@ -25,20 +32,13 @@ function About() {
         <div className="About-contact">
           <h3>Email:</h3>
           <div className="mx-3 mb-5">
-            <h3>chistopher.maltez@outlook.com</h3>
-          </div>
-          <div className="About-content-buttons d-flex justify-content-start my-3">
-            <Button className="mx-3">
-              <Linkedin />
-            </Button>
-            <Button>
-              <Github />
-            </Button>
+            <h3>Chistopher.maltez@outlook.com</h3>
           </div>
         </div>
 
+        {/* TODO: Add Resume */}
+
         <div className="About-aboutme my-5">
-          {/* TODO: Set up 3 columns */}
           <div className="Tech Stack">
             <h3>
               <BsStack /> Tech Stack <FaBeer></FaBeer>
@@ -51,7 +51,6 @@ function About() {
                   <h4>Languages</h4>
                   <ul>
                     <li className="js">
-                      {" "}
                       <IoLogoJavascript />
                       Javascript
                     </li>
@@ -68,8 +67,26 @@ function About() {
                       JQuery
                     </li>
                     <li className="sass">
-                      <SiJquery /> {/* TODO: FIX THIS */}
+                      <SiSass /> {/* TODO: FIX THIS */}
                       SASS
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="Tech-Stack-backend-list-languages col">
+                  <h4>Backend</h4>
+                  <ul>
+                    <li className="PostegreSql">
+                      {" "}
+                      {/* TODO: ADD STYLES  */}
+                      <SiPostgresql />
+                      PostgresSQL
+                    </li>
+                    <li className="firebase">
+                      {" "}
+                      {/* TODO: ADD STYLES  */}
+                      <SiFirebase />
+                      Firebase
                     </li>
                   </ul>
                 </div>
@@ -95,6 +112,11 @@ function About() {
                     <li className="revit">
                       <SiAutodesk /> Revit
                     </li>
+                    <li className="cron">
+                      {" "}
+                      {/* TODO: Cronitor logo */}
+                      Cron
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -106,10 +128,11 @@ function About() {
           <h3 className="About-aboutme-title d-flex">Bio</h3>
           <p className="About-aboutme-paragraph d-flex mx-5">
             I used to be in the architecturce and design field but have since
-            learned that I love programming more than designing. Now Ive
-            switched over to computer programming. I have really found a passion
-            for all things programming. Everything from backends, to data
-            structurs, to data visualization, to full stack apps. Checkout my
+            learned that I love programming more than designing. Because of
+            this, I have switched over to computer programming and graduated
+            from The Rithm School Bootcamp. I have really found a passion for
+            all things programming. Everything from backends, to data
+            structures, to data visualization, to full stack apps! Checkout my
             projects below and feel free to reach out!
           </p>
         </div>

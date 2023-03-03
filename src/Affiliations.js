@@ -9,7 +9,7 @@ function Affiliations() {
         <h1 className="d-flex bd-highlight">Affiliations</h1>
         <div className="Affiliations-list mx-3">
           <h3>bjj App</h3>
-          <h3>M3dida</h3>
+          <h3><a href="https://m3dida.com/">M3dida</a></h3> {/* TODO: SET UP STYLE FOR THIS LINK */} {/* SHOW TECH STACK FOR THIS PROJECT. */}
           <h3>Rack-share.com</h3>
         </div>
       </div>

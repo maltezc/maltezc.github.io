@@ -6,6 +6,7 @@ import Entertainment from "./Entertainment";
 import Footer from "./Footer";
 import NaviBar3 from "./NaviBar3";
 import ScrollSpy from "react-ui-scrollspy";
+import { SiLinkedin, SiGithub } from "react-icons/si";
 
 /**  Inspiractions
  * https://bruno-simon.com/ <- truck driving
@@ -18,12 +19,23 @@ function PWApp() {
     <div>
       <NaviBar3 />
 
-      <ScrollSpy>
+      <ScrollSpy scrollThrottle={50}>
         <About />
         <Projects />
         <Affiliations />
         <Entertainment />
         <Footer />
+
+        <a
+          className="social-link fs-3"
+          href="https://www.linkedin.com/in/christopher-maltez"
+        >
+          <SiLinkedin className="linkedin" />
+        </a>
+
+        <a className="social-link fs-3" href="https://github.com/maltezc">
+          <SiGithub className="github" />
+        </a>
       </ScrollSpy>
     </div>
   );

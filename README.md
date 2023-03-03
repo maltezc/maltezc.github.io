@@ -1,4 +1,4 @@
-# How to deploy to github pages
+# How to deploy react to github pages
 https://www.youtube.com/watch?v=Q9n2mLqXFpU
 
 

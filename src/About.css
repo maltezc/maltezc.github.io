@@ -9,7 +9,6 @@
   border-radius: 2em;
 }
 
-
 .js {
   color: aqua;
   font-size: 1.25em;
@@ -21,33 +20,41 @@
 }
 
 .csharp {
-  color: rgb(141,58,163);
+  color: rgb(141, 58, 163);
   font-size: 1.25em;
 }
 
 .jquery {
-  color:rgb(16,100,165);
+  color: rgb(16, 100, 165);
   font-size: 1.25em;
 }
 
 .react {
-  color:rgb(91,207,237);
+  color: rgb(91, 207, 237);
   font-size: 1.25em;
 }
 
 .flask {
-  color:rgb(238,214,84);
+  color: rgb(238, 214, 84);
   font-size: 1.25em;
 }
 
 .revit {
-  color:rgb(47,107,172);
+  color: rgb(47, 107, 172);
   font-size: 1.25em;
 }
 
 .autocad {
-  color:rgb(178,39,37);
+  color: rgb(178, 39, 37);
   font-size: 1.25em;
+}
+
+.linkedin {
+  color: rgb(48, 140, 231);
+}
+
+.github {
+  color: rgb(255, 255, 255);
 }
 
 
