@@ -21,14 +21,42 @@ import "./About.css";
 function About() {
   return (
     <Container className="my-5" id="about">
-      <div className="mt-5 pt-5 m-5">
+      <div className="px-4 pt-5 my-5 text-center">
         <h1 className="d-flex bd-highlight mt-5">About</h1>
-        <div className="About-headshot justify-content-center">
-          <img src={headshot} alt="" width="300" id="headshot" />
+        <div className="overflow-hidden">
+          <div className="About-headshot container px-5">
+            <img
+              src={headshot}
+              id="headshot"
+              className="img-fluid border rounded-3 shadow-lg mb-4"
+              alt="Example image"
+              width="350"
+              // width="700"
+              height="250"
+              // height="500"
+              loading="lazy"
+            />
+          </div>
         </div>
-        <div className="About-name d-flex my-5">
-          <h3>Christopher Maltez</h3>
+        <h1 className="About-name display-5 fw-bold">Christopher Maltez</h1>
+        <div className="col-lg-6 mx-auto">
+          {/* <h3 className="About-aboutme-title d-flex">Bio</h3> */}
+          <br />
+          <p className="lead mb-1">
+            I used to be in the architecture and design field but have since
+            learned that I love programming more than designing. Because of
+            this, I have switched over to computer programming and graduated
+            from The Rithm School Bootcamp. I have really found a passion for
+            all things programming. Everything from backends, to data
+            structures, to data visualization, to full stack apps! Checkout my
+            projects below and feel free to reach out!
+          </p>
         </div>
+      </div>
+
+      <div className="mt-1 pt-1 m-5">
+        {/* <h1 className="d-flex bd-highlight mt-5">About</h1> */}
+
         <div className="About-contact">
           <h3>Email:</h3>
           <div className="mx-3 mb-5">
@@ -50,25 +78,16 @@ function About() {
                 <div className="Tech-Stack-list-languages col">
                   <h4>Languages</h4>
                   <ul>
-                    <li className="js">
+                    <li className="js icon">
                       <IoLogoJavascript />
                       Javascript
                     </li>
-                    <li className="python">
+                    <li className="python icon">
                       <IoLogoPython />
                       Python
                     </li>
-                    <li className="csharp">
+                    <li className="csharp icon">
                       <TbCSharp />
-                      C#
-                    </li>
-                    <li className="jquery">
-                      <SiJquery />
-                      JQuery
-                    </li>
-                    <li className="sass">
-                      <SiSass /> {/* TODO: FIX THIS */}
-                      SASS
                     </li>
                   </ul>
                 </div>
@@ -76,15 +95,11 @@ function About() {
                 <div className="Tech-Stack-backend-list-languages col">
                   <h4>Backend</h4>
                   <ul>
-                    <li className="PostegreSql">
-                      {" "}
-                      {/* TODO: ADD STYLES  */}
+                    <li className="PostegreSql icon">
                       <SiPostgresql />
                       PostgresSQL
                     </li>
-                    <li className="firebase">
-                      {" "}
-                      {/* TODO: ADD STYLES  */}
+                    <li className="firebase icon">
                       <SiFirebase />
                       Firebase
                     </li>
@@ -94,11 +109,19 @@ function About() {
                 <div className="Tech-Stack-list-platforms col">
                   <h4>Platforms</h4>
                   <ul>
-                    <li className="react">
+                    <li className="react icon">
                       <FaReact /> React
                     </li>
-                    <li className="flask">
+                    <li className="flask icon">
                       <SiFlask /> Flask
+                    </li>
+                    <li className="jquery icon">
+                      <SiJquery />
+                      JQuery
+                    </li>
+                    <li className="sass icon">
+                      <SiSass />
+                      SASS
                     </li>
                   </ul>
                 </div>
@@ -106,14 +129,13 @@ function About() {
                 <div className="Tech-Stack-list-programs col">
                   <h4>Other Programs</h4>
                   <ul>
-                    <li className="autocad">
+                    <li className="autocad icon">
                       <SiAutodesk /> AutoCad
                     </li>
-                    <li className="revit">
+                    <li className="revit icon">
                       <SiAutodesk /> Revit
                     </li>
-                    <li className="cron">
-                      {" "}
+                    <li className="cron icon">
                       {/* TODO: Cronitor logo */}
                       Cron
                     </li>
@@ -124,17 +146,6 @@ function About() {
           </div>
 
           <br />
-
-          <h3 className="About-aboutme-title d-flex">Bio</h3>
-          <p className="About-aboutme-paragraph d-flex mx-5">
-            I used to be in the architecturce and design field but have since
-            learned that I love programming more than designing. Because of
-            this, I have switched over to computer programming and graduated
-            from The Rithm School Bootcamp. I have really found a passion for
-            all things programming. Everything from backends, to data
-            structures, to data visualization, to full stack apps! Checkout my
-            projects below and feel free to reach out!
-          </p>
         </div>
       </div>
     </Container>

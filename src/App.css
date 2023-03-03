@@ -24,6 +24,13 @@ html {
   left: 1em;
 }
 
+.resume {
+  position: fixed;
+  top: 9em;
+  left: 1em;
+  color: rgb(237, 140, 13);
+}
+
 
 
 

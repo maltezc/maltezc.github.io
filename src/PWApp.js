@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import NaviBar3 from "./NaviBar3";
 import ScrollSpy from "react-ui-scrollspy";
 import { SiLinkedin, SiGithub } from "react-icons/si";
+import { ImProfile } from "react-icons/im";
 
 /**  Inspiractions
  * https://bruno-simon.com/ <- truck driving
@@ -35,6 +36,10 @@ function PWApp() {
 
         <a className="social-link fs-3" href="https://github.com/maltezc">
           <SiGithub className="github" />
+        </a>
+
+        <a className="social-link fs-3" href="https://github.com/maltezc">
+          <ImProfile className="resume" />
         </a>
       </ScrollSpy>
     </div>
