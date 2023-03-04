@@ -22,11 +22,11 @@
 }
 
 .csharp {
-  color: rgb(141, 58, 163);
+  color: rgb(202, 80, 236);
 }
 
 .jquery {
-  color: rgb(16, 100, 165);
+  color: rgb(35, 195, 248);
 }
 
 .react {
@@ -38,11 +38,11 @@
 }
 
 .revit {
-  color: rgb(47, 107, 172);
+  color: rgb(95, 161, 231);
 }
 
 .autocad {
-  color: rgb(178, 39, 37);
+  color: rgb(234, 50, 47);
 }
 
 .linkedin {
@@ -54,13 +54,14 @@
 }
 
 .PostegreSql {
-  color: rgb(50, 103, 144);
+  color: rgb(58, 207, 241);
 }
 
 .firebase {
-  color: rgb(255,204,50);
+  color: rgb(255, 204, 50);
 }
 
-.sass{
-  color: rgb(197,100,148);
+.sass {
+  color: rgb(236, 121, 178);
 }
+

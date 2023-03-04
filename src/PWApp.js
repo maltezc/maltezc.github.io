@@ -38,7 +38,7 @@ function PWApp() {
           <SiGithub className="github" />
         </a>
 
-        <a className="social-link fs-3" href="https://github.com/maltezc">
+        <a className="social-link fs-3" href="https://maltezc.github.io/resume/">
           <ImProfile className="resume" />
         </a>
       </ScrollSpy>

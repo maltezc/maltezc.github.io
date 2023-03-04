@@ -13,5 +13,7 @@ function App() {
     </BrowserRouter>
   );
 }
+/* look at setting up AWS lamda functions for using in conjuction for email functionality */
+
 
 export default App;

@@ -31,16 +31,13 @@ function About() {
               className="img-fluid border rounded-3 shadow-lg mb-4"
               alt="Example image"
               width="350"
-              // width="700"
               height="250"
-              // height="500"
               loading="lazy"
             />
           </div>
         </div>
         <h1 className="About-name display-5 fw-bold">Christopher Maltez</h1>
         <div className="col-lg-6 mx-auto">
-          {/* <h3 className="About-aboutme-title d-flex">Bio</h3> */}
           <br />
           <p className="lead mb-1">
             I used to be in the architecture and design field but have since
