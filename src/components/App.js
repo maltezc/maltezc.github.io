@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import PWApp from "./PWApp";
 import { BrowserRouter } from "react-router-dom";
 

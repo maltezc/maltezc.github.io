@@ -4,7 +4,7 @@ import { IoLogoJavascript, IoLogoPython } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { SiFlask, SiPostgresql } from "react-icons/si";
 import { HiOutlineUserGroup } from "react-icons/hi";
-import "./Projects.css";
+import "./Projects.scss";
 
 function Projects() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import "./Entertainment.css";
+import "./Entertainment.scss";
 
 function Entertainment() {
   return (

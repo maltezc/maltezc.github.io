@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import "./Affiliations.css";
+import "./Affiliations.scss";
 
 function Affiliations() {
   return (

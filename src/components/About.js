@@ -15,8 +15,8 @@ import {
   SiFirebase,
 } from "react-icons/si";
 
-import headshot from "./images/headShot.jpg";
-import "./About.css";
+import headshot from "./../images/headShot.jpg";
+import "./About.scss";
 
 function About() {
   return (

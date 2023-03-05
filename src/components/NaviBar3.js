@@ -1,7 +1,8 @@
 import React from "react";
 // import Button from "react-bootstrap/Button";
 // import { Linkedin, Github } from "react-bootstrap-icons";
-import "./NaviBar3.css";
+import "./NaviBar3.scss";
+
 
 function NaviBar3() {
   return (
