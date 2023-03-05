@@ -1,3 +1,5 @@
+@import "../styles/colorsVariables.scss";
+
 #about {
   /* padding-top: 50px; */
   padding-bottom: 100px;
@@ -14,54 +16,54 @@
 }
 
 .js {
-  color: aqua;
+  color: $jsLogoColor;
 }
 
 .python {
-  color: rgb(241, 167, 7);
+  color: $pythonLogoColor;
 }
 
 .csharp {
-  color: rgb(202, 80, 236);
+  color: $csharpLogoColor;
 }
 
 .jquery {
-  color: rgb(35, 195, 248);
+  color: $jqueryLogoColor;
 }
 
 .react {
-  color: rgb(91, 207, 237);
+  color: $reactLogoColor;
 }
 
 .flask {
-  color: rgb(238, 214, 84);
+  color: $flaskLogoColor;
 }
 
 .revit {
-  color: rgb(95, 161, 231);
+  color: $revitLogoColor;
 }
 
 .autocad {
-  color: rgb(234, 50, 47);
+  color: $autocadLogoColor;
 }
 
 .linkedin {
-  color: rgb(48, 140, 231);
+  color: $linkedLogoColor;
 }
 
 .github {
-  color: rgb(255, 255, 255);
+  color: $githubLogoColor;
 }
 
 .PostegreSql {
-  color: rgb(58, 207, 241);
+  color: $psqlLogoColor;
 }
 
 .firebase {
-  color: rgb(255, 204, 50);
+  color: $firebaseLogoColor;
 }
 
 .sass {
-  color: rgb(236, 121, 178);
+  color: $sassLogoColor;
 }
 
