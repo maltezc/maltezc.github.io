@@ -6,7 +6,7 @@ import { SiFlask, SiPostgresql } from "react-icons/si";
 import { HiOutlineUserGroup } from "react-icons/hi";
 import "./Projects.scss";
 import Project from "./Project";
-import projectData from "./../data/projectData.json";
+import projectData from "../data/projectData.js";
 import ProjectCardList from "./ProjectCardList";
 
 function Projects() {
