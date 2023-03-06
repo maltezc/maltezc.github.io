@@ -1,21 +1,23 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import { IoLogoJavascript, IoLogoPython } from "react-icons/io";
-import { FaReact } from "react-icons/fa";
-import { SiFlask, SiPostgresql } from "react-icons/si";
-import { HiOutlineUserGroup } from "react-icons/hi";
+// import Container from "react-bootstrap/Container";
+// import { IoLogoJavascript, IoLogoPython } from "react-icons/io";
+// import { FaReact } from "react-icons/fa";
+// import { SiFlask, SiPostgresql } from "react-icons/si";
+// import { HiOutlineUserGroup } from "react-icons/hi";
 import "./Projects.scss";
-import Project from "./Project";
+// import ProjectCard2 from "./ProjectCard2";
 import projectData from "../data/projectData.js";
 import ProjectCardList from "./ProjectCardList";
+
 
 function Projects() {
   return (
     <div>
+      <h1>Projects</h1>
       <ProjectCardList projects={projectData} />
 
-      <Container className="my-5" id="projects">
-        <Project />
+      {/* <Container className="my-5" id="projects">
+
         <div className="m-5">
           <h1 className="d-flex bd-highlight">Professional Projects</h1>
           <div className="Projects-list mx-3 mt-5">
@@ -59,7 +61,6 @@ function Projects() {
                   NumbersAPI
                 </a>
               </h3>
-              {/* TODO: include badges */}
               <p>Team Size: 7</p>
               <p>
                 Role: Worked on integration of slack bo reporting a daily fact.
@@ -70,12 +71,10 @@ function Projects() {
                 Tech Stack used: FRONTEND: js/jquery, sass, BACKEND:
                 flask/python, MOBILE FRONT: react Native
               </p>{" "}
-              {/* TODO: FIX THIS */}
             </div>
             <br />
             <div className="StackQs">
               <h3>In progress: StackQs</h3>
-              {/* TODO: include badges */}
               <p>Team Size: </p>
               <p>Role: </p>
               <p>Test Coverage: </p>
@@ -84,7 +83,6 @@ function Projects() {
             <br />
             <div className="MyNeighborsBookshelf">
               <h3>In progress/private: My NeighborsBookshelf</h3>
-              {/* TODO: include badges */}
               <p>Team Size: </p>
               <p>Role: </p>
               <p>Test Coverage: </p>
@@ -93,7 +91,7 @@ function Projects() {
             <br />
           </div>
         </div>
-      </Container>
+      </Container> */}
     </div>
   );
 }
