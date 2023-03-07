@@ -1,5 +1,5 @@
 import React from "react";
-// import Container from "react-bootstrap/Container";
+import Container from "react-bootstrap/Container";
 // import { IoLogoJavascript, IoLogoPython } from "react-icons/io";
 // import { FaReact } from "react-icons/fa";
 // import { SiFlask, SiPostgresql } from "react-icons/si";
@@ -9,14 +9,20 @@ import "./Projects.scss";
 import projectData from "../data/projectData.js";
 import ProjectCardList from "./ProjectCardList";
 
-
 function Projects() {
   return (
-    <div>
-      <h1>Projects</h1>
-      <ProjectCardList projects={projectData} />
+    <Container className="my-5" id="projects">
+      <div className="m-5">
+        <h1 className="d-flex bd-highlight">Projects</h1>
+        <ProjectCardList projects={projectData} />
+      </div>
+    </Container>
+  );
+}
 
-      {/* <Container className="my-5" id="projects">
+export default Projects;
+
+/* <Container className="my-5" id="projects">
 
         <div className="m-5">
           <h1 className="d-flex bd-highlight">Professional Projects</h1>
@@ -91,9 +97,4 @@ function Projects() {
             <br />
           </div>
         </div>
-      </Container> */}
-    </div>
-  );
-}
-
-export default Projects;
+      </Container> */

@@ -4,7 +4,7 @@ const projects = [
     image: "",
     languages: ["javscript", "python"],
     frontEndTechStack: ["react"],
-    backEndTechStack: ["react", "flask", "pqsl"],
+    backEndTechStack: ["flask", "psql"],
     groupCount: 2,
     role: "Co-Author",
     description :
@@ -15,7 +15,7 @@ const projects = [
     image: "",
     languages: ["javscript", "python"],
     frontEndTechStack: ["jquery", "sass", "react-native"],
-    backEndTechstack: ["flask", "psql"],
+    backEndTechStack: ["flask", "psql"],
     groupCount: 11,
     role: "Co-Author",
     description:
@@ -26,7 +26,7 @@ const projects = [
     image: "",
     languages: ["python"],
     frontEndTechStack: ["flask"],
-    backEndTechStack: ["flask, psql"],
+    backEndTechStack: ["flask", "psql"],
     groupCount: "2",
     role: "Co-Author",
     description: "A twitter clone.",

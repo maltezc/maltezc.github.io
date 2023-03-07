@@ -4,10 +4,7 @@ import React from "react";
 // import PropTypes from "prop-types";
 
 function ProjectCard({ project }) {
-  console.log("test");
-  console.log("🚀 ~ file: ProjectCard.js:7 ~ project:", project.title);
   let image = project.image;
-  console.log("🚀 ~ file: ProjectCard.js:8 ~ image:", image);
 
   // function ProjectCard({ project-image, languages, frontEnd-tech-stack, backEnd-tech-stack, group-count, role, project-description }) {
   return (

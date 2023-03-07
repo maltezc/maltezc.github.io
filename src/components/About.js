@@ -61,7 +61,6 @@ function About() {
           </div>
         </div>
 
-        {/* TODO: Add Resume */}
 
         <div className="About-aboutme my-5">
           <div className="Tech Stack">
@@ -120,6 +119,7 @@ function About() {
                       <SiSass />
                       SASS
                     </li>
+                    {/* TODO: REACT BOOTSTRAP */}
                   </ul>
                 </div>
 
