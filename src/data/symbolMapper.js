@@ -10,33 +10,42 @@ import {
   SiAutodesk,
   SiPostgresql,
   SiFirebase,
+  SiBootstrap,
+  // SiMui
 } from "react-icons/si";
 
-const languages = {
-  javascript: <IoLogoJavascript />,
-  python: <IoLogoPython />,
-  csharp: <TbCSharp />,
+const frontendLanguages = {
+  js: <IoLogoJavascript className="js" />,
+  python: <IoLogoPython className="python" />,
+  csharp: <TbCSharp className="csharp" />,
+};
+
+const backendLanguages = {
+  js: <IoLogoJavascript className="js" />,
+  python: <IoLogoPython className="python" />,
+  csharp: <TbCSharp className="csharp" />,
 };
 
 const platforms = {
-  react: <FaReact />,
-  flask: <SiFlask />,
-  jquery: <SiJquery />,
-  sass: <SiSass />,
-  // TODO: REACT BOOTSTRAP
+  react: <FaReact className="react" />,
+  flask: <SiFlask className="flask" />,
+  jquery: <SiJquery className="jquery" />,
+  sass: <SiSass className="sass" />,
+  bootstrap: <SiBootstrap className="bootstrap" />,
+  // mui: <SiMui className="mui" />
 };
 
 const backends = {
-  psql: <SiPostgresql />,
-  flask: <SiFlask />,
-  firebase: <SiFirebase />,
+  psql: <SiPostgresql className="psql" />,
+  flask: <SiFlask className="flask" />,
+  firebase: <SiFirebase className="firebase" />,
 };
 
 const otherPrograms = {
-  autodesk: <SiAutodesk />
+  autodesk: <SiAutodesk className="autodesk" />,
 };
 
 // backend
 
 // other programs
-export { languages, backends, platforms, otherPrograms };
+export { frontendLanguages, backendLanguages, backends, platforms, otherPrograms };

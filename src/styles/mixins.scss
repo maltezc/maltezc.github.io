@@ -1,0 +1,56 @@
+@import "../styles/colorsVariables.scss";
+
+@mixin jsStyle {
+  color: $jsLogoColor;
+}
+
+@mixin pythonStyle {
+  color: $pythonLogoColor;
+}
+@mixin csharpStyle {
+  color: $csharpLogoColor;
+}
+
+@mixin jqueryStyle {
+  color: $jqueryLogoColor;
+}
+
+@mixin reactStyle {
+  color: $reactLogoColor;
+}
+
+@mixin flaskStyle {
+  color: $flaskLogoColor;
+}
+
+@mixin revitStyle {
+  color: $revitLogoColor;
+}
+
+@mixin autocadStyle {
+  color: $autocadLogoColor;
+}
+
+@mixin linkedInStyle {
+  color: $linkedLogoColor;
+}
+
+@mixin githubStyle {
+  color: $githubLogoColor;
+}
+
+@mixin psqlStyle {
+  color: $psqlLogoColor;
+}
+
+@mixin firebaseStyle {
+  color: $firebaseLogoColor;
+}
+
+@mixin sassStyle {
+  color: $sassLogoColor;
+}
+
+@mixin bootstrapStyle {
+    color: $bootstrapColor;
+}

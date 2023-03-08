@@ -1,4 +1,6 @@
 @import "../styles/colorsVariables.scss";
+@import "../styles/mixins.scss";
+
 
 #projects {
   padding-top: 100px;
@@ -10,20 +12,24 @@
 }
 
 .js-logo {
-  color: $jsLogoColor;
+  @include jsStyle;
 }
 
 .python-logo {
-  color: $pythonLogoColor;
+  @include pythonStyle;
 }
 
 .react-logo {
-  color: $reactLogoColor;
+  @include reactStyle;
 }
 .flask-logo {
-  color: $flaskLogoColor;
+  @include flaskStyle;
 }
 
 .psql-logo {
-  color: $psqlLogoColor;
+  @include psqlStyle;
+}
+
+.project-github {
+  scale: 50%;
 }

@@ -13,7 +13,12 @@ import {
   SiAutodesk,
   SiPostgresql,
   SiFirebase,
+  SiBootstrap,
+  // SiMui
 } from "react-icons/si";
+
+// import { SiMui } from "react-icons/si";
+
 
 import headshot from "./../images/headShot.jpg";
 import "./About.scss";
@@ -91,7 +96,7 @@ function About() {
                 <div className="Tech-Stack-backend-list-languages col">
                   <h4>Backend</h4>
                   <ul>
-                    <li className="PostegreSql icon">
+                    <li className="psql icon">
                       <SiPostgresql />
                       PostgresSQL
                     </li>
@@ -119,7 +124,14 @@ function About() {
                       <SiSass />
                       SASS
                     </li>
-                    {/* TODO: REACT BOOTSTRAP */}
+                    <li className="bootstrap icon">
+                      <SiBootstrap />
+                      Bootstrap
+                    </li>
+                    {/* <li className="mui icon">
+                      <SiMui />
+                      MaterialUI
+                    </li> */}
                   </ul>
                 </div>
 

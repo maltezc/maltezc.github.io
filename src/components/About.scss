@@ -1,4 +1,5 @@
 @import "../styles/colorsVariables.scss";
+@import "../styles//mixins.scss";
 
 #about {
   /* padding-top: 50px; */
@@ -16,54 +17,57 @@
 }
 
 .js {
-  color: $jsLogoColor;
+  @include jsStyle;
 }
 
 .python {
-  color: $pythonLogoColor;
+  @include pythonStyle;
 }
 
 .csharp {
-  color: $csharpLogoColor;
+  @include csharpStyle;
 }
 
 .jquery {
-  color: $jqueryLogoColor;
+  @include jqueryStyle;
 }
 
 .react {
-  color: $reactLogoColor;
+  @include reactStyle;
 }
 
 .flask {
-  color: $flaskLogoColor;
+  @include flaskStyle;
 }
 
 .revit {
-  color: $revitLogoColor;
+  @include revitStyle;
 }
 
 .autocad {
-  color: $autocadLogoColor;
+  @include autocadStyle;
 }
 
 .linkedin {
-  color: $linkedLogoColor;
+  @include linkedInStyle;
 }
 
 .github {
-  color: $githubLogoColor;
+  @include githubStyle;
 }
 
-.PostegreSql {
-  color: $psqlLogoColor;
+.psql {
+  @include psqlStyle;
 }
 
 .firebase {
-  color: $firebaseLogoColor;
+  @include firebaseStyle;
 }
 
 .sass {
-  color: $sassLogoColor;
+  @include sassStyle;
 }
 
+.bootstrap {
+  @include bootstrapStyle;
+}
