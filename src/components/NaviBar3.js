@@ -46,13 +46,13 @@ function NaviBar3() {
         >
           Affiliations
         </a>
-        <a
+        {/* <a
           href="#entertainment"
           className="nav-link fs-5 px-3 pt-1"
           data-to-scrollspy-id="entertainment"
         >
           Entertainment
-        </a>
+        </a> */}
       </nav>
     </div>
   );

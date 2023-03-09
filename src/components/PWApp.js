@@ -2,7 +2,7 @@ import React from "react";
 import About from "./About";
 import Projects from "./Projects";
 import Affiliations from "./Affiliations";
-import Entertainment from "./Entertainment";
+// import Entertainment from "./Entertainment";
 import Footer from "./Footer";
 import NaviBar3 from "./NaviBar3";
 import ScrollSpy from "react-ui-scrollspy";
@@ -24,7 +24,7 @@ function PWApp() {
         <About />
         <Projects />
         <Affiliations />
-        <Entertainment />
+        {/* <Entertainment /> */}
         <Footer />
 
         <a
