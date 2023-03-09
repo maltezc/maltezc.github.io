@@ -30,6 +30,15 @@
   @include psqlStyle;
 }
 
-.project-github {
-  scale: 50%;
+.btn-outline-dark {
+// .project-github {
+  scale: 100%;
+  &:hover {
+    color: red;
+  }
+}
+
+.btn-group>.btn:hover {
+  color: $githubLogoColor;
+  // TODO: make this a gradient
 }

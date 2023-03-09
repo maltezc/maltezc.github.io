@@ -1,3 +1,5 @@
+@import "../styles/colorsVariables.scss";
+
 .NaviBarDiv {
   /* background-color: black; */
   background-color: #282c34;
@@ -10,7 +12,7 @@
 
 
   height: 4ex;
-  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  background-image: $navLinkGradient;
   border: none;
   border-radius: 5px;
   font-weight: bold;
