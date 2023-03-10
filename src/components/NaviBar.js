@@ -1,15 +1,13 @@
 import React from "react";
 // import Button from "react-bootstrap/Button";
 // import { Linkedin, Github } from "react-bootstrap-icons";
-import "./NaviBar3.scss";
+import "./NaviBar.scss";
 
 
-function NaviBar3() {
+function NaviBar() {
   return (
     <div className="NaviBarDiv sticky-top">
-      {/* <nav className="d-flex flex-wrap justify-content-center border-bottom"> */}
       <nav className="d-flex flex-wrap justify-content-center pt-4 mb-4 border-bottom">
-        {/* <span className="fs-2"> */}
         <a
           href="/"
           className="d-flex align-items-center mb-3 mx-5 me-md-auto text-light text-decoration-none fs-2"
@@ -17,13 +15,7 @@ function NaviBar3() {
         >
           CM
         </a>
-        {/* </span> */}
 
-        {/* <span className="mb-3 mx-5 me-md-auto text-light text-decoration-none"> */}
-        {/* <div className="d-flex mb-3 me-md-auto text-light text-decoration-none"> */}
-
-        {/* </div> */}
-        {/* </span> */}
 
         <a
           href="#about"
@@ -58,4 +50,4 @@ function NaviBar3() {
   );
 }
 
-export default NaviBar3;
+export default NaviBar;

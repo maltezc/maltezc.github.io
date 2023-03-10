@@ -1,65 +1,87 @@
 /* eslint-disable react/prop-types */
 
 import React from "react";
-// import PropTypes from "prop-types";
+import {
+  frontendLanguages,
+  backendLanguages,
+  backends,
+  platforms,
+} from "../data/symbolMapper";
+import ghLogo from "../assets/iconmonstr-github-1.svg";
+
+import { BsStack } from "react-icons/bs";
 
 function ProjectCard({ project }) {
-  let image = project.image;
 
-  // function ProjectCard({ project-image, languages, frontEnd-tech-stack, backEnd-tech-stack, group-count, role, project-description }) {
+  const feLanguageLogos = project.feLanguages.map((lang, i) => (
+    <div className="fs-2 d-inline" key={i}>
+      {frontendLanguages[lang]}
+    </div>
+  ));
+  const platformsLogos = project.frontEndTechStack.map((fTech, i) => (
+    <div className="fs-2 d-inline" key={i}>
+      {platforms[fTech]}
+    </div>
+  ));
+  const beLanguageLogos = project.beLanguages.map((lang, i) => (
+    <div className="fs-2 d-inline" key={i}>
+      {backendLanguages[lang]}
+    </div>
+  ));
+  const backendsLogos = project.backEndTechStack.map((bTech, i) => (
+    <div className="fs-2 d-inline" key={i}>
+      {backends[bTech]}
+    </div>
+  ));
+
+  const githubLinks = project.githubLinks.map((link, i) => (
+    <a href={link.url} key={i}>
+      <button className="btn btn-outline-dark btn-lg px-4">
+        <img
+          src={ghLogo}
+          className="d-block mx-lg-auto project-github"
+          width="100"
+          height="70"
+          loading="lazy"
+        />
+        <h4>
+          <i className="fas fa-search-plus"></i>
+        </h4>
+        <p className="m-0">{link.type}</p>
+      </button>
+    </a>
+  ));
+
   return (
     <div>
       <div className="container col-xxl-8 px-4 py-5">
-        <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div className="col-10 col-sm-8 col-lg-6">
-            <img
-              src={image}
-              // src="bootstrap-themes.png"
-              className="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
-              width="700"
-              height="500"
-              loading="lazy"
-            />
+        <div className="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
+          <div className="col-10 col-sm-8 col-lg-6 d-flex justify-content-center">
+            <span className="btn-group" role="group">
+              {githubLinks}
+            </span>
           </div>
+
           <div className="col-lg-6">
-            <h1 className="display-5 fw-bold lh-1 mb-3">
-              Responsive left-aligned hero with image
-            </h1>
-            <p className="lead">
-              {/* {project.description} */}
-              {project}
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
-            </p>
-            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button
-                type="button"
-                className="btn btn-primary btn-lg px-4 me-md-2"
-              >
-                Primary
-              </button>
-              <button
-                type="button"
-                className="btn btn-outline-secondary btn-lg px-4"
-              >
-                Default
-              </button>
-            </div>
+            <h1 className="display-5 fw-bold lh-1 mb-3">{project.title}</h1>
+            <BsStack className="fs-3" />
+            <span className="m-3 fs-1">
+              <span className="">
+                {feLanguageLogos}
+                {platformsLogos}
+              </span>
+              <span className="mx-3">
+                {beLanguageLogos}
+                {backendsLogos}
+              </span>
+            </span>
+            <p className="lead">{project.description}</p>
+            <div className="d-grid gap-2 d-md-flex justify-content-center"></div>
           </div>
         </div>
       </div>
     </div>
   );
 }
-
-/* ProjectCard.PropTypes = {
-  project: PropTypes.any,
-  // project: PropTypes.node.isRequired,
-  image: PropTypes.any
-  // project.description: PropTypes.any
-}; */
 
 export default ProjectCard;

@@ -4,7 +4,7 @@ import Projects from "./Projects";
 import Affiliations from "./Affiliations";
 // import Entertainment from "./Entertainment";
 import Footer from "./Footer";
-import NaviBar3 from "./NaviBar3";
+import NaviBar from "./NaviBar";
 import ScrollSpy from "react-ui-scrollspy";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 import { ImProfile } from "react-icons/im";
@@ -18,7 +18,7 @@ import { ImProfile } from "react-icons/im";
 function PWApp() {
   return (
     <div>
-      <NaviBar3 />
+      <NaviBar />
 
       <ScrollSpy scrollThrottle={50}>
         <About />
