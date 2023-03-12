@@ -14,38 +14,23 @@ import {
   // SiMui
 } from "react-icons/si";
 
-const frontendLanguages = {
+const logos = {
   js: <IoLogoJavascript className="js" />,
   python: <IoLogoPython className="python" />,
   csharp: <TbCSharp className="csharp" />,
-};
 
-const backendLanguages = {
-  js: <IoLogoJavascript className="js" />,
-  python: <IoLogoPython className="python" />,
-  csharp: <TbCSharp className="csharp" />,
-};
-
-const platforms = {
   react: <FaReact className="react" />,
   flask: <SiFlask className="flask" />,
   jquery: <SiJquery className="jquery" />,
   sass: <SiSass className="sass" />,
   bootstrap: <SiBootstrap className="bootstrap" />,
-  // mui: <SiMui className="mui" />
-};
 
-const backends = {
   psql: <SiPostgresql className="psql" />,
-  flask: <SiFlask className="flask" />,
   firebase: <SiFirebase className="firebase" />,
+
+  revit: <SiAutodesk className="autodesk-revit" />,
+  autocad: <SiAutodesk className="autodesk-autocad" />,
 };
 
-const otherPrograms = {
-  autodesk: <SiAutodesk className="autodesk" />,
-};
 
-// backend
-
-// other programs
-export { frontendLanguages, backendLanguages, backends, platforms, otherPrograms };
+export { logos };

@@ -1,4 +1,12 @@
+@import "../styles/colorsVariables.scss";
+@import "../styles//mixins.scss";
+
 #affiliations {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+
+.autocad-revit {
+  @include revitStyle
 }

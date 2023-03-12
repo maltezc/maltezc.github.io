@@ -3,8 +3,10 @@ const affiliations = [
     title: "M3dida.com",
     image: "",
     feLanguages: ["csharp"],
-    frontEndTechStack: ["Revit", "AutoCAD"],
-    beLanguages: ["firebase"],
+    frontEndTechStack: [],
+    beLanguages: [],
+    backEndTechStack: ["firebase"],
+    otherPrograms: ["revit", "autocad"],
     groupCount: 1,
     role: "Owner/Founder",
     description:

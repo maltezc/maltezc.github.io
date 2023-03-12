@@ -25,7 +25,7 @@ export default App;
 
 /* TODO: ADD SEMANTIC TYPES, THIS AFFECTS YOUR seo
 <sections>,<footer>,<article> see Frontend Review lecture*/
-// TODO: set 1 <h1> tag per page.
+// // TODO: set 1 <h1> tag per page.
 // TODO: check lighthouse - chrome dev tools > lighthouse tab
 // TODO: Make it responsive
 // TODO: ADD Lighthouse stats
@@ -57,3 +57,33 @@ List of things intending to do.
 
 // TODO: if your file requires a .env, you can have a .env.example for a template. if you need to ask someone from your cohort.
 // TODO: add context description to m3dida.com affiliation
+
+/** Pagac comments
+ * - include slideshow element or pics of projects a
+ * - include live links
+ */
+
+/**
+ * make sure every page has an h1 tag
+ * - try to load images in an optimized time
+ * -  caching, sizing the image down.
+ * -  check for librarie sthat do this automatically.
+ */
+
+
+/** hackathons
+ * - check eventbright
+ * - can be a bigger timesuck best to look for shorter ones
+ * - people likely to be in the same boat
+ */
+
+/** opensource
+ * - find an open source project
+ * - istio
+ * - rithm one is maintained by spotify. maintained in GO. check it out
+*/
+
+/** security
+ * -
+ */
+

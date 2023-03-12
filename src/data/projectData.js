@@ -6,6 +6,7 @@ const projects = [
     frontEndTechStack: ["react", "mui"],
     beLanguages: ["python"],
     backEndTechStack: ["flask", "psql"],
+    otherPrograms: [],
     groupCount: 2,
     role: "Co-Author",
     description:
@@ -28,6 +29,7 @@ const projects = [
     frontEndTechStack: ["jquery", "sass", "react-native", "bootstrap"],
     beLanguages: ["python"],
     backEndTechStack: ["flask", "psql"],
+    otherPrograms: [],
     groupCount: 11,
     role: "Co-Author",
     description:
@@ -46,6 +48,7 @@ const projects = [
     frontEndTechStack: ["flask"],
     beLanguages: ["python"],
     backEndTechStack: ["flask", "psql"],
+    otherPrograms: [],
     groupCount: "2",
     role: "Co-Author",
     description:
@@ -68,6 +71,7 @@ const projects = [
     frontEndTechStack: ["flask"],
     beLanguages: ["python"],
     backEndTechStack: ["flask", "psql"],
+    otherPrograms: [],
     groupCount: "2",
     role: "Co-Author",
     description:

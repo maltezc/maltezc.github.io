@@ -40,11 +40,11 @@
   @include flaskStyle;
 }
 
-.revit {
+.autodesk-revit {
   @include revitStyle;
 }
 
-.autocad {
+.autodesk-autocad {
   @include autocadStyle;
 }
 
