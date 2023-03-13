@@ -31,24 +31,25 @@ function ProjectCard({ project }) {
 
   const githubLinks = project.githubLinks.map((link, i) => (
     <a href={link.url} key={i}>
-      <button className="btn btn-outline-dark btn-lg px-4">
+      <button
+        className="btn btn-outline-info btn-lg px-4 mx-1"
+        aria-label={`Github link to ${link.url}`}
+      >
         <img
           src={ghLogo}
-          className="d-block mx-lg-auto project-github"
+          className="d-block mx-lg-auto"
           width="100"
           height="70"
           loading="lazy"
+          alt="Github Logo Image"
         />
-        <h4>
-          <i className="fas fa-search-plus"></i>
-        </h4>
-        <p className="m-0">{link.type}</p>
+        {link.type}
       </button>
     </a>
   ));
 
   return (
-    <div>
+    <article>
       <div className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
           <GitHubButtons githubLinks={githubLinks} />
@@ -61,7 +62,7 @@ function ProjectCard({ project }) {
           />
         </div>
       </div>
-    </div>
+    </article>
   );
 }
 

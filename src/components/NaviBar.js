@@ -13,7 +13,7 @@ function NaviBar() {
           className="d-flex align-items-center mb-3 mx-5 me-md-auto text-light text-decoration-none fs-2"
           data-to-scrollspy-id="home"
         >
-          <h1>CM</h1>
+          <h2>CM</h2>
         </a>
 
 

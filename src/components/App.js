@@ -29,7 +29,7 @@ export default App;
 // TODO: check lighthouse - chrome dev tools > lighthouse tab
 // TODO: Make it responsive
 // TODO: ADD Lighthouse stats
-// TODO: add meta information header
+// // TODO: add meta information header
 
 /**
  * In readmes

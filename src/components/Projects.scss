@@ -1,7 +1,6 @@
 @import "../styles/colorsVariables.scss";
 @import "../styles/mixins.scss";
 
-
 #projects {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -31,14 +30,8 @@
 }
 
 .btn-outline-dark {
-// .project-github {
+  // .project-github {
   scale: 100%;
-  &:hover {
-    color: red;
-  }
+
 }
 
-.btn-group>.btn:hover {
-  color: $githubLogoColor;
-  // TODO: make this a gradient
-}

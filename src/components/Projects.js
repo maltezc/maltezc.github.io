@@ -6,14 +6,15 @@ import ProjectCardList from "./ProjectCardList";
 
 function Projects() {
   return (
-    <Container className="my-5" id="projects">
-      <div className="m-5">
-        <h1 className="d-flex bd-highlight">Projects</h1>
-        <ProjectCardList projects={projectData} />
-      </div>
-    </Container>
+    <section id="projects">
+      <Container className="my-5" >
+        <div className="m-5">
+          <h2 className="display-4 d-flex bd-highlight fw-bold">Projects</h2>
+          <ProjectCardList projects={projectData} />
+        </div>
+      </Container>
+    </section>
   );
 }
 
 export default Projects;
-

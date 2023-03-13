@@ -6,14 +6,15 @@ import AffiliationCardList from "./AffiliationCardList";
 
 function Affiliations() {
   return (
-    <Container className="my-5" id="affiliations">
-      <div className="m-5">
-        <h1 className="d-flex bd-highlight">Affiliations</h1>
-        <AffiliationCardList affiliations={affilationsData} />
-      </div>
-    </Container>
+    <section id="affiliations">
+      <Container className="my-5">
+        <div className="m-5">
+          <h2 className="d-flex bd-highlight fw-bold">Affiliations</h2>
+          <AffiliationCardList affiliations={affilationsData} />
+        </div>
+      </Container>
+    </section>
   );
 }
 
 export default Affiliations;
-

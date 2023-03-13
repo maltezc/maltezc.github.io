@@ -4,9 +4,11 @@ import "./Footer.scss";
 
 function Footer() {
   return (
-    <Container className="mt-5 text-center" id="footer">
-      <div></div>
-    </Container>
+    <footer>
+      <Container className="mt-5 text-center" id="footer">
+        <div></div>
+      </Container>
+    </footer>
   );
 }
 
