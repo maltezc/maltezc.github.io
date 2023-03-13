@@ -18,10 +18,8 @@ function App() {
 
 export default App;
 
-/**
- * TODO:
- * Optimize and Add SEO rankings to personal website. get to 80 or above.
- */
+// // TODO: Optimize and Add SEO rankings to personal website. get to 80 or above.
+
 
 /* TODO: ADD SEMANTIC TYPES, THIS AFFECTS YOUR seo
 <sections>,<footer>,<article> see Frontend Review lecture*/
@@ -40,7 +38,8 @@ List of things intending to do.
  */
 
 // TODO: ADD TESTING
-// TODO: add responsive design like media queries
+// TODO: Make email in about responsive.
+
 
 
 // TODO: have 6 pinned repos and have 6 great readmes

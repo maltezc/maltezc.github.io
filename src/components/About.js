@@ -27,7 +27,7 @@ function About() {
     <section id="about">
       <Container className="my-5" >
         <article className="px-4 pt-5 my-5 text-center">
-          <h2 className="d-flex bd-highlight mt-5 fw-bold">About</h2>
+          <h2 className="display-4 d-flex bd-highlight mt-5 fw-bold">About</h2>
           <div className="overflow-hidden">
             <div className="About-headshot container px-5">
               <img

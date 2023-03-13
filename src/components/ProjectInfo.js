@@ -31,7 +31,7 @@ function ProjectInfo({ project }) {
   ));
 
   return (
-    <div className="col-lg-6">
+    <article className="col-lg-6">
       <h2 className="display-5 lh-1 mb-3">{project.title}</h2>
       <BsStack className="fs-3" />
       <span className="m-3 fs-1">
@@ -47,7 +47,7 @@ function ProjectInfo({ project }) {
       </span>
       <p className="lead">{project.description}</p>
       <div className="d-grid gap-2 d-md-flex justify-content-center"></div>
-    </div>
+    </article>
   );
 }
 
